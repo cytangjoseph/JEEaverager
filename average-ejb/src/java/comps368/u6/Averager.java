@@ -5,7 +5,7 @@ import javax.ejb.Stateless;
 @Stateless
 public class Averager implements AveragerRemote {
     @EJB
-    private AdderRemote adder; //how to access?
+    private Adder adder; //how to access?
     
     @Override
     public double average(int... numbers) {
