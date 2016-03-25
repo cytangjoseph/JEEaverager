@@ -2,7 +2,7 @@ package comps368.u6;
 import javax.ejb.Stateless;
 
 @Stateless
-public class Adder implements AdderLocal {
+public class Adder implements AdderRemote {
 
     @Override
     public int add(int... numbers) {
