@@ -4,7 +4,6 @@ import javax.ejb.Stateless;
 
 @LocalBean
 @Stateless
-
 public class Adder implements AdderRemote {
 
     @Override
