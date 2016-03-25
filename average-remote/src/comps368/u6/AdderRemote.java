@@ -1,8 +1,8 @@
 package comps368.u6;
 
-import javax.ejb.Local;
+import javax.ejb.Remote;
 
-@Local
+@Remote
 public interface AdderRemote {
     int add(int... numbers);
 }
