@@ -2,7 +2,7 @@ package comps368.u6;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
-@LocalBean
+@LocalBean //No-interface
 @Stateless
 public class Adder implements AdderRemote {
 
